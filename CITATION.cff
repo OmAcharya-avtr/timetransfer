@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TimeTransfer"
+abstract: ""Clock offset and skew across a link with the uncertainty measured rather than quoted — two-way time transfer under asymmetric and variable delay, Allan deviation over tau with a confidence interval at each tau, and a measured uncertainty on the offset estimate itself rather than a datasheet figure; symmetric-delay analytic estimator with its asymmetry bias derived in closed form and verified, least-squares and Kalman skew estimation, learned delay-asymmetry corrector benchmarked against the symmetric assumption and a median-filtered estimator; Allan deviation verified against synthetic noise processes of known slope with the fitted slopes reported against theory. THIS IS THE BATCH 08 L4-SCAFFOLDED PRODUCT: hardware abstraction layer with simulation/device parity asserted by test, simulation mode, dry-run mode, documented Jetson Orin Nano deployment and recovery procedure, and a benchmark harness whose hardware rows stay EMPTY and marked unmeasured. Labelled Level 3 hardware-pending and never Level 4 until measured timing and resource use come from the board itself.""
+type: software
+authors:
+  - family-names: "Acharya"
+    given-names: "Om"
+    alias: "OmAcharya-avtr"
+repository-code: "https://github.com/OmAcharya-avtr/timetransfer"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-08-30"
+keywords:
+  - aerospace
+  - hardware-in-the-loop
